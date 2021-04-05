@@ -82,7 +82,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP DEVELOPED BY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtS-Ji-0gf">
-                                <rect key="frame" x="20" y="170" width="374" height="17"/>
+                                <rect key="frame" x="142" y="170" width="130.5" height="17"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -134,24 +134,38 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="antoniogonzalezvaldepenas@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yy6-kP-1dC">
+                                <rect key="frame" x="63" y="220.5" width="288" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" name="BarColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APRIL 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9X-CC-vWn">
+                                <rect key="frame" x="170" y="248" width="74" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3qH-Sy-2bf"/>
                         <color key="backgroundColor" name="AccentColor"/>
                         <constraints>
+                            <constraint firstItem="v9X-CC-vWn" firstAttribute="centerX" secondItem="H8w-gd-l8a" secondAttribute="centerX" id="0SX-LM-i0Q"/>
                             <constraint firstItem="JtS-Ji-0gf" firstAttribute="centerX" secondItem="H8w-gd-l8a" secondAttribute="centerX" id="12f-Lh-QnZ"/>
                             <constraint firstItem="3qH-Sy-2bf" firstAttribute="trailing" secondItem="dOd-n5-Vxl" secondAttribute="trailing" constant="20" id="7bF-7z-MyO"/>
                             <constraint firstItem="KNh-ic-Nm0" firstAttribute="leading" secondItem="3qH-Sy-2bf" secondAttribute="leading" constant="20" id="EyV-eN-trM"/>
                             <constraint firstItem="3qH-Sy-2bf" firstAttribute="bottom" secondItem="dOd-n5-Vxl" secondAttribute="bottom" constant="30" id="F4E-By-cBr"/>
-                            <constraint firstItem="JtS-Ji-0gf" firstAttribute="leading" secondItem="3qH-Sy-2bf" secondAttribute="leading" constant="20" id="HQa-bL-kJu"/>
+                            <constraint firstItem="yy6-kP-1dC" firstAttribute="centerX" secondItem="H8w-gd-l8a" secondAttribute="centerX" id="Fbg-tE-3OZ"/>
+                            <constraint firstItem="v9X-CC-vWn" firstAttribute="top" secondItem="yy6-kP-1dC" secondAttribute="bottom" constant="8" symbolic="YES" id="HkY-PO-Ok7"/>
                             <constraint firstItem="tPW-y6-ozr" firstAttribute="top" secondItem="ozo-st-vtc" secondAttribute="bottom" constant="4" id="In3-Hc-dq5"/>
                             <constraint firstItem="ozo-st-vtc" firstAttribute="centerX" secondItem="H8w-gd-l8a" secondAttribute="centerX" id="KNe-Zt-8eh"/>
                             <constraint firstItem="zGK-wH-d3a" firstAttribute="top" secondItem="H8w-gd-l8a" secondAttribute="top" id="Kts-NK-GaB"/>
                             <constraint firstItem="KNh-ic-Nm0" firstAttribute="top" secondItem="tPW-y6-ozr" secondAttribute="bottom" constant="8" symbolic="YES" id="NSy-Tk-ZxM"/>
+                            <constraint firstItem="yy6-kP-1dC" firstAttribute="top" secondItem="rCQ-oy-pd6" secondAttribute="bottom" constant="2" id="Pgm-hD-KBb"/>
                             <constraint firstItem="JtS-Ji-0gf" firstAttribute="top" secondItem="zGK-wH-d3a" secondAttribute="bottom" constant="30" id="TuZ-qS-92y"/>
                             <constraint firstItem="dOd-n5-Vxl" firstAttribute="top" secondItem="KNh-ic-Nm0" secondAttribute="bottom" constant="10" id="Uua-9o-aSb"/>
                             <constraint firstItem="tPW-y6-ozr" firstAttribute="leading" secondItem="3qH-Sy-2bf" secondAttribute="leading" constant="40" id="aL0-u1-LYP"/>
                             <constraint firstItem="rCQ-oy-pd6" firstAttribute="top" secondItem="JtS-Ji-0gf" secondAttribute="bottom" constant="5" id="aav-7n-Tka"/>
-                            <constraint firstItem="3qH-Sy-2bf" firstAttribute="trailing" secondItem="JtS-Ji-0gf" secondAttribute="trailing" constant="20" id="aof-cW-TMV"/>
                             <constraint firstItem="zGK-wH-d3a" firstAttribute="trailing" secondItem="3qH-Sy-2bf" secondAttribute="trailing" id="cMU-Qv-lvS"/>
                             <constraint firstItem="3qH-Sy-2bf" firstAttribute="trailing" secondItem="tPW-y6-ozr" secondAttribute="trailing" constant="40" id="fpR-Xp-p64"/>
                             <constraint firstItem="rCQ-oy-pd6" firstAttribute="leading" secondItem="3qH-Sy-2bf" secondAttribute="leading" constant="10" id="k0L-4e-fuh"/>
@@ -575,7 +589,7 @@
             <color red="0.99400001764297485" green="0.81499999761581421" blue="0.2800000011920929" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="BarColor">
-            <color red="0.14100000262260437" green="0.13400000333786011" blue="0.11599999666213989" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.14100000262260437" green="0.13300000131130219" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
